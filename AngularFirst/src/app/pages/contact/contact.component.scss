@@ -1,0 +1,13 @@
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  /* vertical alignment of the inline element */
+  /* reset the font property */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
